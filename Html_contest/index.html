@@ -4,46 +4,223 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Agency</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/fontawesome-free-6.4.0-web/css/all.min.css">
+
+
 </head>
 <body>
     <header>
-        <div class="container">
-            <div id="branding">
-                <h1>Travel Agency Web Design</h1>
+        <a class="logo-img" href="" target="_blank">
+            <!--<img class="logo-image" src="" alt="">-->
+            <i class="fa-sharp fa-solid fa-plane-departure"></i>
+            <div class="logo-name">
+                Travel
             </div>
+        </a>
 
-            <nav>
-                <ul>
-                    <li class="current"><a href="index.html">Home</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact_us.html">Contact Us</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="header-nav">
+            <ul class="nav-list">
+                <li><a class="nav-links" href="index.html">Home</a></li>
+                <li><a class="nav-links" href="services.html">Services</a></li>
+                <li><a class="nav-links" href="about.html">About</a></li>
+                <li><a class="nav-links" href="contact_us.html">Contact Us</a></li>
+            </ul>
+        </nav>
     </header>
-    
-    <main>
-        <section class="Home/Landing page">
-            <div class="Identity">
-                <h1>Name/Trademark of the website(Agency)</h1>
-            </div>
 
-            <div class="Description of website">
-                <div class="Aims">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elitue? Et,  ullam aliquid?</p>
+    <section class="welcome-sec">
+        <div class="first-welcome-div"> <!--the first vertical div-->
+            <div class="intro-div"> 
+                <h1>
+                    This is the bigger intro
+                </h1>
+                <p>
+                    A fact about an historical site in Nigeria
+                </p>
+                <button>
+                    Explore More 
+                </button>
+            </div>
+    
+            <div class="intro-icon-div">
+                <img class="intro-icon" 
+                src="/plane-2909850_1920-removebg-preview.png" alt="">
+            </div>
+        </div>
+            
+        <div class="second-welcome-div"> <!--the second vertical div-->
+            <img class="intro-img" src="/church-2106621_1920.png" alt="">
+        </div>
+
+        <div class="booking-div"> <!--the third vertical div-->
+            <div class="option-div"> <!--the 1st part of the icon section-->
+                <div class="option-selector">
+                    <i class="fa-light fa-location-dot"></i>
+                    <div>Location</div>
+                    <i class="fa-light fa-circle-chevron-down"></i>
                 </div>
 
-                <div class="Objectives">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elitue? Et,  ullam aliquid?</p>
+                <div class="option-description">Enter your destination</div>
+            </div>
+
+            <div class="option-div"></div>> <!--the 2nd of the icon section-->
+                <div class="option-selector">
+                    <i class="fa-light fa-star"></i>
+                    <div>Your Category</div>
+                    <i class="fa-light fa-circle-chevron-down"></i>
+                </div>
+
+                <div class="option-description">When will it start?</div>
+            </div>
+
+            <div class="option-div"></div>> <!--the 3rd of the icon section-->
+                <div class="option-selector">
+                    <i class="fa-solid fa-people-group"></i>
+                    <div>Total Person</div>
+                    <i class="fa-light fa-circle-chevron-down"></i>
+                </div>
+
+                <div class="option-description">When will it start?</div>
+            </div>
+
+            <button class="booking-btn"> <!--the 4th of the icon section-->
+                <i class="fa-regular fa-calendar-check"></i>
+                <p>Book Now</p>
+            </button>
+        </div>
+    </section>
+
+    <section class="services-sec">
+        <div class="services-sec-header">
+            <h2>
+                Select Category
+            </h2>
+            <p>Just a few discription not sure where </p>
+        </div>
+
+        <div class="travel-service-div">
+            <h2>
+                Travel Services
+            </h2>
+            <div class="travel-service-icon-block"> <!--services icon divs-->
+                <div class="travel-service-icon-div">
+                    <i class="fa-light fa-house-blank"></i>
+                    <p>Accommodation</p>
+                    <button class="travel-service-icon-btn">Explore</button>
+                </div>
+
+                <div class="travel-service-icon-div">
+                    <i class="fa-thin fa-car-bus"></i>
+                    <p>Transportation</p>
+                    <button class="travel-service-icon-btn">Explore</button>
+                </div>
+
+                <div class="travel-service-icon-div">
+                    <i class="fa-solid fa-fork-knife"></i>
+                    <p>Restaurants</p>
+                    <button class="travel-service-icon-btn">Explore</button>
                 </div>
             </div>
-        </section>
-    </main>
-    
-    <footer>
-        <p>Ogtech Web Design, Copyright &copy; 2020</p>
-      </footer>
+        </div>
+
+        <div class="entertainment-service-div">
+            <h2>
+                Entertainment Services
+            </h2>
+            <div class="entertainment-service-icon-block"> <!--services icon divs-->
+                <div class="entertainment-service-icon-div">
+                    <i class="fa-duotone fa-camera"></i>
+                    <p>Tourism</p>
+                    <button class="entertainment-service-icon-btn">Explore</button>
+                </div>
+
+                <div class="entertainment-service-icon-div">
+                    <i class="fa-regular fa-umbrella-beach"></i>
+                    <p>Beach Vacation</p>
+                    <button class="entertainment-service-icon-btn">Explore</button>
+                </div>
+
+                <div class="entertainment-service-icon-div">
+                    <i class="fa-solid fa-ship"></i>
+                    <p>Cruises</p>
+                    <button class="entertainment-service-icon-btn">Explore</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="places-sec"> <!--Places-->
+        <div class="location">
+            <div class="location-info">
+                <p class="state">Egypt</p>
+                <p class="capital">Capital:
+                    <span class="city">Cairo</span>
+                </p>
+                <p class="days-to-spend">from 7 nights</p>
+                <p class="price">from 
+                    <span class="amount">$690</span>
+                    <span class="quantity">/person</span>
+                </p>
+            </div>
+
+            <div class="location-img-div">
+                <img class="location-img" src="" alt="">
+            </div>
+        </div>
+
+        <div class="other-img-div">
+            <img class="other-img" src="" alt="">
+            <img class="other-img" src="" alt="">
+            <img class="other-img" src="" alt="">
+            <img class="other-img" src="" alt="">
+        </div>
+    </section>
+
+    <section class="popular-location-sec"> <!--Popular location-->
+        <div class="popular-location-sec-header">
+            <h2>
+                Popular Trips
+            </h2>
+            <p>A little explanation of the section.</p>
+        </div>
+
+        <div class="suggested-location-block">
+            <div class="suggested-location-div"> <!--1st Nice locations-->
+                <img class="suggested-location-img" src="" alt="">
+                <p>Czech Republic, Prague</p>
+                <p>from <span class="location-cost">$799</span></p>
+            </div>
+
+            <div class="suggested-location-div"> <!--2nd Nice locations-->
+                <img class="suggested-location-img" src="" alt="">
+                <p>Cappadocia</p>
+                <p>from <span  class="location-cost">$799</span></p>
+            </div>
+
+            <div class="suggested-location-div"> <!--3rd Nice locations-->
+                <img class="suggested-location-img" src="" alt="">
+                <p>Maldives</p>
+                <p>from <span  class="location-cost">$799</span></p>
+            </div>
+
+            <div class="suggested-location-div"> <!--3rd Nice locations-->
+                <img class="suggested-location-img" src="" alt="">
+                <p>Thailand</p>
+                <p>from <span  class="location-cost">$799</span></p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        
+    </section>
 </body>
 </html>
+
+
+
+
+
+
