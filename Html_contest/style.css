@@ -1,77 +1,134 @@
 body {
-
+    margin: 0;
 }
 
 header {
+    background-color: rgb(22, 98, 193);
 
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: auto;
+    margin-bottom: -20px;
 }
 
 .logo-link {
-    
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-aro;
+    align-items: center;
+
+    text-decoration: none;
+}
+
+.fa-plane-departure {
+    margin-right: 5px;
 }
 
 .logo-img {
-
+    
 }
 
 .logo-name {
-
+    margin-left: 5px;
 }
 
 .header-nav {
-
+    
 }
 
 .nav-list {
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
 }
 
 .nav-links {
-
+    text-decoration: none;
+    margin-right: 10px;
+    color: white;
 }
 
 .welcome-sec {
+    background-color: rgb(22, 98, 193);
+    min-height: auto;
+    margin-top: 0;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-left: 40px;
 
 }
 
 .first-welcome-div {
-
+    display: flex;
 }
 
 .intro-div {
-
+    flex: 7;
 }
 
 .intro-div h1 {
+    color: rgb(202, 255, 250);
+    font-size: 70px;
+    margin-bottom: 0;
 
+}
+
+.header-color2 {
+    color: white;
 }
 
 .intro-div p {
-
+    color: white;
+    font-size: 12px;
 }
 
 .intro-div button {
-
+    background-color: rgb(202, 255, 250);
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 4px 12px 20px rgba(202, 255, 250, 0.4);
 }
 
 .intro-icon-div {
-
+    flex: 3;
 }
 
 .intro-icon {
-
+    height: 300px;
+    width: 400px;
 }
 
-.second-welcome-div {
-
-}
+/*.second-welcome-div {
+    background-image: url("Images/church-2106621_1920.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    background-position: center ;
+}*/
 
 .intro-img {
 
 }
 
 .booking-div {
-
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 4px 12px 20px rgba(55, 58, 58, 0.15);
 }
 
 .option-div {
@@ -79,47 +136,77 @@ header {
 }
 
 .option-selector {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.option-selector div {
+    
 }
 
 .option-description {
-
+    color: rgb(186, 186, 186);
+    font-size: 12px;
+    margin-left: 25px;
+    margin-top: 12px;
 }
 
 .booking-btn {
-
+    background-color: rgb(254, 239, 96);
+    border: none;
+    border-radius: 8px;
+    padding-top: 8px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.service-sec {
-
+.services-sec {
+    padding-top: 100px;
+    text-align: center;
 }
 
 .services-sec-header {
-
+    
 }
 
 .services-sec-header h2 {
-    
+    color: rgb(18, 85, 181);
+    font-size: 40px;
+    margin: 0;
 }
 
 .services-sec-header p {
-    
+    font-size: 13px;
 }
 
 .travel-service-div {
-
+    margin-top: 50px;
 }
 
 .travel-service-div h2 {
-    
+    text-align: start;
+    margin-left: 50px;
+    margin-bottom: 50px;
 }
 
 .travel-service-icon-block {
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
 }
 
 .travel-service-icon-div  {
 
+}
+
+.travel-service-icon {
+    font-size: 50px;
 }
 
 .travel-service-icon-div p  {
@@ -127,7 +214,9 @@ header {
 }
 
 .travel-service-icon-btn {
-
+    background-color: rgb(61, 61, 61);
+    color: white;
+    border: ;
 }
 
 .entertainment-service-div {
