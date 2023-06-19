@@ -168,6 +168,7 @@ header {
 .services-sec {
     padding-top: 100px;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .services-sec-header {
@@ -205,6 +206,24 @@ header {
 
 }
 
+.travel-service-icon-div-color1 {
+    background-color: rgb(194, 255, 239);
+    padding: 20px 0px;
+    border-radius: 20px;
+}
+
+.entertainment-service-icon-div-color1 {
+    background-color: rgb(18, 85, 181);
+    padding: 20px 0px;
+    border-radius: 20px;
+}
+
+.entertainment-service-icon-div-color2 {
+    background-color: rgb(254, 239, 96);
+    padding: 20px 0px;
+    border-radius: 20px;
+}
+
 .travel-service-icon {
     font-size: 50px;
 }
@@ -216,39 +235,76 @@ header {
 .travel-service-icon-btn {
     background-color: rgb(61, 61, 61);
     color: white;
-    border: ;
+    border: none;
+    padding: 5px 12px;
+    font-size: 10px;
+    border-radius: 5px;
 }
 
 .entertainment-service-div {
-
+    margin-top: 50px;
 }
 
 .entertainment-service-div h2 {
-    
+    text-align: start;
+    margin-left: 50px;
+    margin-bottom: 50px;
 }
 
 .entertainment-service-icon-block {
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
 }
 
 .entertainment-service-icon-div  {
 
 }
 
+.entertainment-service-icon {
+    font-size: 50px;
+}
+
+.tourism-icon {
+    color: white;
+}
+
 .entertainment-service-icon-div p  {
 
 }
 
-.entertainment-service-icon-btn {
+.tourism-p {
+    color: white;
+}
 
+.entertainment-service-icon-btn {
+    background-color: rgb(61, 61, 61);
+    color: white;
+    border: none;
+    padding: 5px 12px;
+    font-size: 10px;
+    border-radius: 5px;
+}
+
+.tourism-btn {
+    color: black;
+    background-color: white;
 }
 
 .places-sec {
-
+    margin-top: 20px;
+    background-color: rgb(243, 249, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .location {
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .location-info {
@@ -288,15 +344,23 @@ header {
 }
 
 .location-img {
-
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+    object-position: center;
 }
 
 .other-img-div {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .other-img {
-    
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+    object-position: center;
 }
 
 .popular-location-sec {
