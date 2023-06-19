@@ -85,7 +85,8 @@ header {
 
 .intro-div p {
     color: white;
-    font-size: 12px;
+    font-size: 15px;
+    width: 500px;
 }
 
 .intro-div button {
@@ -198,12 +199,14 @@ header {
 .travel-service-icon-block {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    
 }
 
 .travel-service-icon-div  {
-
+    
+    text-align: center;
 }
 
 .travel-service-icon-div-color1 {
@@ -302,25 +305,29 @@ header {
 }
 
 .location {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
     align-items: center;
 }
 
 .location-info {
-
+    margin-right: 70px;
+    margin-bottom: 20px;
 }
 
 .state {
-
+    font-weight: bold;
+    font-size: 20px;
+    
 }
 
 .capital {
-
+    font-weight: bold;
 }
 
 .city {
-
+    font-weight: 300;
 }
 
 .days-to-spend {
@@ -332,39 +339,53 @@ header {
 }
 
 .amount {
-
+    color: rgb(33, 85, 156);
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .quantity {
+    font-size: 20px;
+    font-weight: bold;
+}
 
+.loaction-btn {
+    border: none;
+    padding: 8px 12px;
+    border-radius: 7px;
+    background-color: rgb(254, 239, 96);
 }
 
 .location-img-div {
-
+    margin-left: 70px;
 }
 
 .location-img {
-    height: 300px;
-    width: 300px;
-    object-fit: contain;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
     object-position: center;
+    border-radius: 30px;
 }
 
 .other-img-div {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
 }
 
 .other-img {
-    height: 300px;
-    width: 300px;
-    object-fit: contain;
+    height: 75px;
+    width: 75px;
+    object-fit: cover;
     object-position: center;
+    margin: 10px;
+    border-radius: 15px;
 }
 
 .popular-location-sec {
-
+    margin-top: 40px;
+    text-align: center;
 }
 
 .popular-location-sec-header {
@@ -372,7 +393,10 @@ header {
 }
 
 .popular-location-sec-header h2 {
-
+    font-size: 30px;
+    color: rgb(33, 85, 156);
+    font-weight: bold;
+    margin-bottom: 0;
 }
 
 .popular-location-sec-header p {
@@ -380,7 +404,10 @@ header {
 }
 
 .suggested-location-block {
-
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
 }
 
 .suggested-location-div {
@@ -388,13 +415,19 @@ header {
 }
 
 .suggested-location-img {
-
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 30px;
 }
 
 .suggested-location-div p {
-
+    margin-top: 0;
 }
 
 .location-cost {
-    
+    color: rgb(33, 85, 156);
+    font-size: 30px;
+    font-weight: bold;
 }
