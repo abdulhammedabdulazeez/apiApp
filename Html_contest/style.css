@@ -398,3 +398,102 @@ header {
 .location-cost {
     
 }
+.About{
+    background-color: rgb(37, 105, 199);
+    color: white;
+}
+
+.About h2{
+   text-align: center;
+   font-size: 25px;
+   margin: 8px;
+   padding: 8px;
+   margin-left: -100px;
+   color: white;
+   
+}
+
+.team-container{
+    display: flex;
+    /* background-color: red; */
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+
+.Member {
+padding: 50px;
+flex-direction: column;
+/* background-color: red; */
+flex: wrap;
+justify-content: space-between;
+
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 10px;
+
+    
+}
+
+.Member p {
+    /* background-color: red; */
+    padding: 10px;
+    margin: 10px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.Member #sub-image {
+    margin-left: 50px ;
+}
+
+.Contact_us{
+    background-color: rgb(243, 249, 255);
+    margin-top: -10px;
+}
+
+.Contact_us h2{
+    text-align: center;
+   font-size: 25px;
+   margin: 8px;
+   padding: 8px;
+   margin-left: -100px;
+}
+.container{
+    margin-top: -5px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+textarea{
+    display: flex;
+}
+
+footer {
+    padding: 20px;
+    margin-top: -10px;
+    background-color: rgb(254, 239, 96);
+
+} 
+
+footer li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+.footer_part{
+    display: inline-flex;
+}
+
+.footer_part1{
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.footer_part2{
+    float: right;
+}

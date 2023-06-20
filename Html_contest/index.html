@@ -213,46 +213,56 @@
 
     <section class="About">
         <h2>About Us</h2>
-        <div class="Member_1">
-            <img class="About_img" src="./Members Image/mikesoft.jpg" alt="Profile pictures">
-            <p>My name is Olubode Samuel. I am a Software Engineering student at the African Leadership University, Rwanda. I love to 
-               explore the technicalities of programming and aply my creativity to solve challenging problems.</p>
+        <div class="team-container">
+        <div class="Member">
+            <img class="box" src="./Members Image/mikesoft.jpg" alt="Profile pictures">
+            <h5>My name is Olubode Samuel. I am a Software Engineering student at the African Leadership University, Rwanda. I love to 
+               explore the technicalities of programming and aply my creativity to solve challenging problems.</h5>
             <p>Travel Agency Manager</p>
         </div>
 
-        <div class="Member_2">
-            <img class="About_img" src="./Members Image/sammyG.jpg" alt="Profile pictures">
-            <p>My name is Babalola Samuel Oluwajunwonlo. I am a student of African Leadership University studying Software Engineering. I am passionate 
-               about Artificial Intelligence and is specializing on Machine Learning. My mission is to fight against racism towards and among Africans as a whole.</p>
+        <div class="Member">
+         <span  id="sub-image">
+            <img class="box" src="./Members Image/sammyG.jpg" alt="Profile pictures">
+        </span>
+            <h5>My name is Babalola Samuel Oluwajunwonlo. I am a student of African Leadership University studying Software Engineering. I am passionate 
+               about Artificial Intelligence and is specializing on Machine Learning. My mission is to fight against racism towards and among Africans as a whole.</h5>
             <p>Travel counsellor</p>
         </div>
 
-        <div class="Member_3">
-            <img class="About_img" src="./Members Image/Christabel.jpg" alt="Profile pictures">
-            <p>I am Oluomachi christabel maduibike by name. I am a student of African Leadership University studying Software Engineering with a passion for music,
-               wildlife conservation and fashion; who wants a change in the sight of issues that affect my likes and the word globally.</p>
+        
+        <div class="Member">
+            <!-- <img class="box" src="" alt="Profile pictures"> -->
+            <img class="box" src="./Members Image/alhassan.jpg" alt="Profile pictures">
+            <h5>Information about the memebers such as Name, and a little bio</h5>
+            <p>Tour Director.</p>
+        </div>
+
+</div>
+       <div class="team-container">
+        <div class="Member">
+            <img class="box" src="./Members Image/Christabel.jpg" alt="Profile pictures">
+            <h5>I am Oluomachi christabel maduibike by name. I am a student of African Leadership University studying Software Engineering with a passion for music,
+               wildlife conservation and fashion; who wants a change in the sight of issues that affect my likes and the word globally.</h5>
             <p>Tour Guide.</p>
         </div>
 
-        <div class="Member_4">
-            <img class="About_img" src="./Members Image/alhassan.jpg" alt="Profile pictures">
-            <p>I am an international student pursuing Software Engineering at the African Leadership University. I am a curious mind dedicated to human progress in Africa 
+        <div class="Member" >
+        <span id="sub-image" >
+            <img class="box" id="sub-image" src="./Members Image/alhassan.jpg" alt="Profile pictures">
+        </span>
+            <h5>I am an international student pursuing Software Engineering at the African Leadership University. I am a curious mind dedicated to human progress in Africa 
                as a whole. I am fascinated by the principles and concepts of engineering and my mission is to fight food insecurity , achieve sustainable economic growth and 
                human capital development through Agriculture and Technology in Africa. </p>
             <p>Tour Operator.</p>
         </div>
 
-        <div class="Member_5">
-            <img class="About_img" src="" alt="Profile pictures">
-            <p>Information about the memebers such as Name, and a little bio</p>
-            <p>Tour Director.</p>
-        </div>
-
-        <div class="Member_6">
-            <img class="About_img" src="./Members Image/cynthia.jpg" alt="Profile pictures">
-            <p>I am Cynthia Nekesa from Kenya.My mission to promote environmental and marine life conservation through waste to energy and plastic recycling</p>
+        <div class="Member">
+            <img class="box" src="./Members Image/cynthia.jpg" alt="Profile pictures">
+            <h5>I am Cynthia Nekesa from Kenya.My mission to promote environmental and marine life conservation through waste to energy and plastic recycling</h5>
             <p>Reservation sales Agent.</p>
         </div>
+       </div>
     </section>
 
     <section class="Contact_us">
@@ -274,11 +284,11 @@
               <input type="text" id="country" name="country" placeholder="Enter your country"> <br>
 
                <!--For textarea-->
-               <h3>Message</h3>
+               <label for="message">Message</label>
                <textarea id="subject" name="subject" placeholder="Enter your message" style="height:100px"></textarea> <br>
           
               <input type="checkbox" id="text">
-              <label for="text">I accept the Terms of Service</label> <br><br>
+              <label for="text">I accept the Terms of Service</label><br><br>
 
               <input type="submit" value="Submit your Request">
             </form>
@@ -286,18 +296,18 @@
     </section>
 
     <footer>
-        <div>
+        <div class="footer_part">
             <p>SightCity,</p>
         </div>
 
-        <div>
+        <div class="footer_part1">
             <p>Copyright &copy; 2023. All rights reserved</p>
         </div>
 
-        <div>
-            <p>Legal</p>
-            <P>Privacy policies</P>
-            <p>Terms of use</p>
+        <div class="footer_part2">
+            <li>Legal</li>
+            <li>Privacy policies</li>
+            <li>Terms of use</li>
         </div>
     </footer>
 </body>
