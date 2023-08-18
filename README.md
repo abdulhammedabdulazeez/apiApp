@@ -30,4 +30,7 @@ For inquiries, assistance, or feedback, please don't hesitate to reach out to us
 
 _This project is not affiliated with Booking.com and is intended solely for educational purposes._
 
+## Link to video presentation
+https://www.loom.com/share/c026093c9221466fa2f906480e86e19c?sid=a320af41-6810-4c02-88c2-6413a2c2b888
+
 
