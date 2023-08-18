@@ -431,6 +431,62 @@ header {
     font-size: 30px;
     font-weight: bold;
 }
+
+/* Currency */
+.converter {
+    margin-top: 80px;
+}
+
+.APIContainer {
+    background-color:  rgb(92, 143, 214);
+    margin: 80px auto 100px auto;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    width: 50%;
+    min-width: 500px;
+    height: 20%;
+}
+
+.exchange-header {
+    text-align: center;
+    color: rgb(33, 85, 156);
+    font-size: 30px;
+    margin-bottom: -30px;
+}
+
+.currencyContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inputCurrencyFrom {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#inputCurrencyTo {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.currencyResult {
+    margin: auto;
+    text-align: center;
+}
+
+.exchange-btn {
+    background-color: rgb(254, 239, 96);
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
 .About{
     background-color: rgb(37, 105, 199);
     color: white;

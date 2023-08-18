@@ -7,7 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="/fontawesome-free-6.4.0-web/css/all.min.css">
-
+    <script src="/JS/currencyData.js" defer></script>
+    <script src="/JS/main.js" defer></script>
 
 </head>
 <body>
@@ -210,6 +211,31 @@
                 <img class="suggested-location-img" src="./Images/Zuma Rock.jpg" alt="">
                 <p>Zuma Rock</p>
                 <p>from <span  class="location-cost">$799</span></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="converter"><!-- Currency exchange rates -->
+        <h4 class="exchange-header">Currency exchange rates</h4>
+        <div class="APIContainer">
+            <h4>Find out current currency exchange rates</h4>
+            <div class="currencyContainer">
+                <div>
+                    <p style="margin-bottom: 30px;">From: </p>
+                    <p>To: </p>
+                </div>
+                <div style="margin-left: 20px;">
+                    <select style="margin-left: 20px;" id="inputCurrencyFrom">
+                        <option value="USD">USD</option>
+                    </select>
+                    <select style="margin-left: 30px;" id="inputCurrencyTo">
+                        <option value="NGN">Nigerian Naira</option>
+                    </select>
+                    <button class="exchange-btn" id="buttonCurrency">Calculate</button>
+                </div>
+            </div>
+            <div class="currencyResult">
+                <h4 id="currencyResult">Result: 0</h4>
             </div>
         </div>
     </section>
